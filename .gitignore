@@ -1,0 +1,3 @@
+# project exclude paths
+/target/
+/webshop.properties

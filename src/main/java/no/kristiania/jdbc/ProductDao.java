@@ -56,7 +56,7 @@ public class ProductDao {
         String productName = new Scanner(System.in).nextLine();
 
         Properties properties = new Properties();
-        properties.load(new FileReader("webshop.porperties"));
+        properties.load(new FileReader("webshop.properties"));
 
         PGSimpleDataSource dataSource = new PGSimpleDataSource();
         dataSource.setUrl("jdbc:postgresql://localhost:5433/webshop");
